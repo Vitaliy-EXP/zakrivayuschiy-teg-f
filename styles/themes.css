@@ -7,8 +7,8 @@
 :root.theme-dark {
   --bg-color-main: #000;
   --bg-color-accent: #00CC14;
-  --font-weight: 'wght' 465;
-  --font-weight-bold: 'wght' 785;
+  --font-weight: 465;
+  --font-weight-bold: 785;
   --font-color-main: #00CC14;
   --font-color-accent: #00CC14;
   --stroke-shadow-color: #000;
@@ -39,8 +39,8 @@
 :root.theme-light {
   --font-family-main: 'Inter-Variable', sans-serif;
   --font-family-accent: 'PressStart2P-Regular', sans-serif;
-  --font-weight: 'wght' 400;
-  --font-weight-bold: 'wght' 700;
+  --font-weight: 400;
+  --font-weight-bold: 700;
   --font-color-main: #000;
   --font-color-accent: #000;
   --bg-color-main: #fff;

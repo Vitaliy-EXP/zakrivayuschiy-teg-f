@@ -20,7 +20,7 @@
   margin: auto;
   min-block-size: 100dvb;
   font-family: var(--font-family-main);
-  font-variation-settings: var(--font-weight);
+  font-variation-settings: 'wght' var(--font-weight);
   background-image: var(--bg-image);
   background-size: cover;
   display: flex;
@@ -156,7 +156,7 @@
 
 .card__title {
   font-family: var(--font-family-main);
-  font-variation-settings: var(--font-weight-bold);
+  font-variation-settings: 'wght' var(--font-weight-bold);
   font-size: 18px;
   color: var(--font-color-main);
   padding: 7px 3px 3px 10px;
@@ -175,7 +175,7 @@
   inset-inline-end: 25px;
   inset-block-start: 25px;
   font-family: var(--font-family-accent);
-  font-variation-settings: var(--font-weight);
+  font-variation-settings: 'wght' var(--font-weight);
   font-size: 14px;
   color: var(--watermark-color);
   mix-blend-mode: hard-light;
@@ -184,7 +184,7 @@
     1px -1px 0 var(--stroke-shadow-color),
     1px -1px 0 var(--stroke-shadow-color),
     -1px 1px 0 var(--stroke-shadow-color),
-    1px 1px 0 var(--stroke-shadow-color); 
+    1px 1px 0 var(--stroke-shadow-color);
   z-index: 2;
 }
 
