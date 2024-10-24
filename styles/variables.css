@@ -1,1 +1,69 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-family-main: 'Inter-Variable', sans-serif;
+  --font-family-accent: 'PressStart2P-Regular', sans-serif;
+  --font-weight: 'wght' 400;
+  --font-weight-bold: 'wght' 700;
+  --font-color-main: #000;
+  --font-color-accent: #000;
+  --bg-color-main: #fff;
+  --bg-color-accent: #000;
+  --stroke-shadow-color: #fff;
+  --watermark-color: #000;
+  --button-color: #fff;
+  --color-heart-fill: #FF0000;
+  --color-heart-contour: #000;
+  --bg-image: repeating-linear-gradient(
+    to right,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  linear-gradient(
+    to bottom,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color-main: #000;
+    --bg-color-accent: #00CC14;
+    --font-weight: 'wght' 465;
+    --font-weight-bold: 'wght' 785;
+    --font-color-main: #00CC14;
+    --font-color-accent: #00CC14;
+    --stroke-shadow-color: #000;
+    --watermark-color: #00CC14;
+    --button-color: #00CC14;
+    --color-heart-contour: #00CC14;
+    --bg-image: repeating-linear-gradient(
+      to right,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #007f0c 0.01%,
+      #004306 100%
+    );
+  }
+}
