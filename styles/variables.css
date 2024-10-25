@@ -33,37 +33,3 @@
     #1a1a1a 100%
   );
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color-main: #000;
-    --bg-color-accent: #00CC14;
-    --font-weight: 465;
-    --font-weight-bold: 785;
-    --font-color-main: #00CC14;
-    --font-color-accent: #00CC14;
-    --stroke-shadow-color: #000;
-    --watermark-color: #00CC14;
-    --button-color: #00CC14;
-    --color-heart-contour: #00CC14;
-    --bg-image: repeating-linear-gradient(
-      to right,
-      #000 0px,
-      #000 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(
-      to bottom,
-      #000 0px,
-      #000 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    linear-gradient(
-      to bottom,
-      #007f0c 0.01%,
-      #004306 100%
-    );
-  }
-}
