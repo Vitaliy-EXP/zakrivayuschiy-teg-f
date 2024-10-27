@@ -463,9 +463,9 @@
 }
 
 .dialog[open] button {
-  inline-size: 257px;
+  inline-size: 252px;
   block-size: 34px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media (width >= 537px) {
